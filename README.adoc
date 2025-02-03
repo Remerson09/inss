@@ -45,3 +45,27 @@ Resumindo:
 
 Precisamos de um método que calcule o valor em R$ de todos os impostos pagos por PFs e PJs. 
 Considerando que deve-se garantir que o cálculo inclua o valor do IR, que padrão de projeto pode ser aplicado para isto?
+
+
+
+RESposta:
+# Cálculo de Impostos com Template Method
+
+Este projeto demonstra a aplicação do padrão de projeto **Template Method** para calcular impostos de Pessoa Física (PF) e Pessoa Jurídica (PJ).
+
+## Como Funciona
+
+1. **Pessoa**: Classe abstrata que define o esqueleto do cálculo de impostos.
+2. **PessoaFisica**: Implementa os cálculos específicos para PF (IRPF e INSS).
+3. **PessoaJuridica**: Implementa os cálculos específicos para PJ (IRPJ, CSLL e ICMS).
+4. **Exemplo de Uso**: Demonstração de como calcular os impostos para PF e PJ.
+
+## Como Executar
+
+1. Clone o repositório.
+2. Abra o projeto em uma IDE compatível com JDK 11 ou superior.
+3. Execute a classe `Main` para ver o exemplo em ação.
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
